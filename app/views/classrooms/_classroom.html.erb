@@ -1,0 +1,9 @@
+<p>
+<%= classroom.course_name %>
+<%= classroom.semester %>
+</p>
+
+<ul>
+<% classroom.students.each do |student| %>
+<li><%= student.name %></li>
+<% end %></ul>
